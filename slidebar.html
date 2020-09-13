@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slidebader plugin animation style</title>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, minimum-scale = 1.0, maxmum-scale = 1.0, user-scale = no">
+        <link rel="stylesheet" href="slidebar.css">
+        <link rel="stylesheet" href="example-style.css">
+
+    </head>
+    <body>
+        <div id="sb-site">
+            <h1>slidebar test</h1>
+            <p>jquery plugin for quick and easy implimentation of style off-canvas menus and sidebars</p>
+
+            <ul>
+                <li class="sd-toggle-left">click for slider</li>
+            </ul>
+        </div>
+
+        <div class="sb-slidebar sb-left sb-style-push">
+            <p>android</p><br>
+            <p>java</p> <br>
+            <p>css</p> <br>
+            <p>php</p><br>
+        </div>
+        <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="slidebars.js"></script>
+        <script>
+            (function($){
+                $(document).ready(function(){
+                    $.slidebars();
+                });
+            }) (jQuery);
+        </script>
+        
+    </body>
+</html>
