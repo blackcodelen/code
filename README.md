@@ -1,2 +1,2 @@
 # code
-collection reuseble code
+collection reuserble code
